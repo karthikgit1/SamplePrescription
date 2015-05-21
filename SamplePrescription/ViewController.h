@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PrescriptionCell.h"
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,TableCellDelegate>
+{
+    IBOutlet UITableView *tv1;
+    
+    int totalrows;
+    
+    NSMutableArray *insertIndexPaths;
+    
+    IBOutlet UIButton *btnadd,*btnsubmit;
+}
 
-@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
+-(IBAction)addRows:(id)sender;
+-(IBAction)submitPrescription:(id)sender;
 
 @end

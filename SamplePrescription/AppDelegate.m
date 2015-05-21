@@ -10,9 +10,27 @@
 
 @implementation AppDelegate
 
+- (void)customizeAppearance
+{
+   
+    
+    // Customize the title text for *all* UINavigationBars
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor blackColor], NSForegroundColorAttributeName,
+      [UIFont fontWithName:@"ArialMT" size:36.0], NSFontAttributeName,nil]];
+    
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"ArialMT" size:20]];
+    
+    [[UITextField appearance] setFont:[UIFont fontWithName:@"ArialMT" size:19]];
+   // [[UITextField appearance] setBackgroundColor:[UIColor whiteColor]];
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [self customizeAppearance];
     return YES;
 }
 							

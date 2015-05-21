@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2631417119C8295A0099F70B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2631417019C8295A0099F70B /* Reachability.m */; };
+		2638295519C403BB00EDC43C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638295419C403BB00EDC43C /* ThirdViewController.m */; };
+		2638295819C4056D00EDC43C /* txtfldBorderandPadding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638295719C4056D00EDC43C /* txtfldBorderandPadding.m */; };
+		2638295B19C419D200EDC43C /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2638295A19C419D200EDC43C /* CustomIOS7AlertView.m */; };
+		2640D06B19C2BBF700A72768 /* IMG_0794.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2640D06A19C2BBF700A72768 /* IMG_0794.jpg */; };
 		26549B5519B466450005B116 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26549B5419B466450005B116 /* Foundation.framework */; };
 		26549B5719B466450005B116 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26549B5619B466450005B116 /* CoreGraphics.framework */; };
 		26549B5919B466450005B116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26549B5819B466450005B116 /* UIKit.framework */; };
@@ -21,6 +26,14 @@
 		26549B7619B466460005B116 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26549B5819B466450005B116 /* UIKit.framework */; };
 		26549B7E19B466460005B116 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26549B7C19B466460005B116 /* InfoPlist.strings */; };
 		26549B8019B466460005B116 /* SamplePrescriptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26549B7F19B466460005B116 /* SamplePrescriptionTests.m */; };
+		26549B8B19B46EF80005B116 /* PrescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26549B8A19B46EF80005B116 /* PrescriptionCell.m */; };
+		267C55381A5D0A19003CFE0F /* AutoCompleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C55371A5D0A19003CFE0F /* AutoCompleteViewController.m */; };
+		267C553B1A5D0A89003CFE0F /* AutocompletionTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C553A1A5D0A89003CFE0F /* AutocompletionTableView.m */; };
+		2684319B19C16F80006154D7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2684319A19C16F80006154D7 /* SecondViewController.m */; };
+		2684319D19C1790F006154D7 /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2684319C19C1790F006154D7 /* icon-120.png */; };
+		269E663F19C6C5A7005BD50D /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E663E19C6C5A7005BD50D /* UIImage+animatedGIF.m */; };
+		269E664119C6C6B9005BD50D /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = 269E664019C6C6B9005BD50D /* test.gif */; };
+		26F911BF19B5BC6E0083584F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F911BD19B5BA0F0083584F /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2631416F19C829590099F70B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2631417019C8295A0099F70B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2638295319C403BB00EDC43C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2638295419C403BB00EDC43C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2638295619C4056D00EDC43C /* txtfldBorderandPadding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txtfldBorderandPadding.h; sourceTree = "<group>"; };
+		2638295719C4056D00EDC43C /* txtfldBorderandPadding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = txtfldBorderandPadding.m; sourceTree = "<group>"; };
+		2638295919C419D200EDC43C /* CustomIOS7AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOS7AlertView.h; sourceTree = "<group>"; };
+		2638295A19C419D200EDC43C /* CustomIOS7AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOS7AlertView.m; sourceTree = "<group>"; };
+		2640D06A19C2BBF700A72768 /* IMG_0794.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0794.jpg; sourceTree = "<group>"; };
 		26549B5119B466450005B116 /* SamplePrescription.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamplePrescription.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26549B5419B466450005B116 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26549B5619B466450005B116 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +75,19 @@
 		26549B7B19B466460005B116 /* SamplePrescriptionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplePrescriptionTests-Info.plist"; sourceTree = "<group>"; };
 		26549B7D19B466460005B116 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		26549B7F19B466460005B116 /* SamplePrescriptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplePrescriptionTests.m; sourceTree = "<group>"; };
+		26549B8919B46EF80005B116 /* PrescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrescriptionCell.h; sourceTree = "<group>"; };
+		26549B8A19B46EF80005B116 /* PrescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrescriptionCell.m; sourceTree = "<group>"; };
+		267C55361A5D0A19003CFE0F /* AutoCompleteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCompleteViewController.h; sourceTree = "<group>"; };
+		267C55371A5D0A19003CFE0F /* AutoCompleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCompleteViewController.m; sourceTree = "<group>"; };
+		267C55391A5D0A89003CFE0F /* AutocompletionTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutocompletionTableView.h; sourceTree = "<group>"; };
+		267C553A1A5D0A89003CFE0F /* AutocompletionTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutocompletionTableView.m; sourceTree = "<group>"; };
+		2684319919C16F80006154D7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2684319A19C16F80006154D7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2684319C19C1790F006154D7 /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		269E663D19C6C5A7005BD50D /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		269E663E19C6C5A7005BD50D /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		269E664019C6C6B9005BD50D /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		26F911BD19B5BA0F0083584F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F911BF19B5BC6E0083584F /* CoreData.framework in Frameworks */,
 				26549B5719B466450005B116 /* CoreGraphics.framework in Frameworks */,
 				26549B5919B466450005B116 /* UIKit.framework in Frameworks */,
 				26549B5519B466450005B116 /* Foundation.framework in Frameworks */,
@@ -101,6 +137,7 @@
 		26549B5319B466450005B116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				26F911BD19B5BA0F0083584F /* CoreData.framework */,
 				26549B5419B466450005B116 /* Foundation.framework */,
 				26549B5619B466450005B116 /* CoreGraphics.framework */,
 				26549B5819B466450005B116 /* UIKit.framework */,
@@ -112,6 +149,16 @@
 		26549B5A19B466450005B116 /* SamplePrescription */ = {
 			isa = PBXGroup;
 			children = (
+				267C55351A5D0182003CFE0F /* AutoComplete */,
+				2631416F19C829590099F70B /* Reachability.h */,
+				2631417019C8295A0099F70B /* Reachability.m */,
+				269E664019C6C6B9005BD50D /* test.gif */,
+				269E663D19C6C5A7005BD50D /* UIImage+animatedGIF.h */,
+				269E663E19C6C5A7005BD50D /* UIImage+animatedGIF.m */,
+				2638295919C419D200EDC43C /* CustomIOS7AlertView.h */,
+				2638295A19C419D200EDC43C /* CustomIOS7AlertView.m */,
+				2640D06A19C2BBF700A72768 /* IMG_0794.jpg */,
+				2684319C19C1790F006154D7 /* icon-120.png */,
 				26549B6319B466450005B116 /* AppDelegate.h */,
 				26549B6419B466450005B116 /* AppDelegate.m */,
 				26549B6619B466450005B116 /* Main.storyboard */,
@@ -119,6 +166,14 @@
 				26549B6A19B466450005B116 /* ViewController.m */,
 				26549B6C19B466450005B116 /* Images.xcassets */,
 				26549B5B19B466450005B116 /* Supporting Files */,
+				26549B8919B46EF80005B116 /* PrescriptionCell.h */,
+				26549B8A19B46EF80005B116 /* PrescriptionCell.m */,
+				2684319919C16F80006154D7 /* SecondViewController.h */,
+				2684319A19C16F80006154D7 /* SecondViewController.m */,
+				2638295319C403BB00EDC43C /* ThirdViewController.h */,
+				2638295419C403BB00EDC43C /* ThirdViewController.m */,
+				2638295619C4056D00EDC43C /* txtfldBorderandPadding.h */,
+				2638295719C4056D00EDC43C /* txtfldBorderandPadding.m */,
 			);
 			path = SamplePrescription;
 			sourceTree = "<group>";
@@ -150,6 +205,17 @@
 				26549B7C19B466460005B116 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267C55351A5D0182003CFE0F /* AutoComplete */ = {
+			isa = PBXGroup;
+			children = (
+				267C55391A5D0A89003CFE0F /* AutocompletionTableView.h */,
+				267C553A1A5D0A89003CFE0F /* AutocompletionTableView.m */,
+				267C55361A5D0A19003CFE0F /* AutoCompleteViewController.h */,
+				267C55371A5D0A19003CFE0F /* AutoCompleteViewController.m */,
+			);
+			name = AutoComplete;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2684319D19C1790F006154D7 /* icon-120.png in Resources */,
+				2640D06B19C2BBF700A72768 /* IMG_0794.jpg in Resources */,
 				26549B6D19B466450005B116 /* Images.xcassets in Resources */,
 				26549B5F19B466450005B116 /* InfoPlist.strings in Resources */,
+				269E664119C6C6B9005BD50D /* test.gif in Resources */,
 				26549B6819B466450005B116 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2638295B19C419D200EDC43C /* CustomIOS7AlertView.m in Sources */,
+				2684319B19C16F80006154D7 /* SecondViewController.m in Sources */,
 				26549B6B19B466450005B116 /* ViewController.m in Sources */,
+				2638295519C403BB00EDC43C /* ThirdViewController.m in Sources */,
+				2631417119C8295A0099F70B /* Reachability.m in Sources */,
+				269E663F19C6C5A7005BD50D /* UIImage+animatedGIF.m in Sources */,
+				267C553B1A5D0A89003CFE0F /* AutocompletionTableView.m in Sources */,
 				26549B6519B466450005B116 /* AppDelegate.m in Sources */,
+				2638295819C4056D00EDC43C /* txtfldBorderandPadding.m in Sources */,
 				26549B6119B466450005B116 /* main.m in Sources */,
+				26549B8B19B46EF80005B116 /* PrescriptionCell.m in Sources */,
+				267C55381A5D0A19003CFE0F /* AutoCompleteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +457,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePrescription/SamplePrescription-Prefix.pch";
 				INFOPLIST_FILE = "SamplePrescription/SamplePrescription-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +471,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamplePrescription/SamplePrescription-Prefix.pch";
 				INFOPLIST_FILE = "SamplePrescription/SamplePrescription-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +536,7 @@
 				26549B8519B466460005B116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26549B8619B466460005B116 /* Build configuration list for PBXNativeTarget "SamplePrescriptionTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +545,7 @@
 				26549B8819B466460005B116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
